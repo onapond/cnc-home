@@ -1,0 +1,23 @@
+{
+  "version": "1.5.2",
+  "level": "dynamic",
+  "projectName": "cnc-home",
+  "techStack": {
+    "frontend": "Next.js 15 (App Router)",
+    "language": "TypeScript",
+    "styling": "Tailwind CSS",
+    "stateManagement": "Zustand",
+    "dataFetching": "TanStack Query",
+    "backend": "bkend.ai BaaS"
+  },
+  "pdca": {
+    "currentPhase": "archived",
+    "features": []
+  },
+  "context": {
+    "business": "C&C Tech - Korean specialty coffee roasting company",
+    "domain": "cnctechlab.co.kr",
+    "existingSite": "isonglobal/ (static HTML/CSS)",
+    "pages": ["home", "products", "training", "catering", "b2b", "contact"]
+  }
+}
