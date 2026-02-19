@@ -5,8 +5,22 @@ import { MenuItem } from "@/components/features/MenuItem";
 import { InquiryForm } from "@/components/features/InquiryForm";
 
 export const metadata: Metadata = {
-  title: "케이터링 서비스 - (주)씨앤씨테크",
-  description: "커피 케이터링, 디저트 케이터링 서비스 - 씨앤씨테크",
+  title: "케이터링 서비스",
+  description:
+    "행사, 세미나, 기업 이벤트를 위한 커피 케이터링 및 디저트 케이터링 서비스 - 씨앤씨테크",
+  openGraph: {
+    title: "케이터링 서비스 | (주)씨앤씨테크",
+    description: "행사, 세미나, 기업 이벤트를 위한 커피 & 디저트 케이터링",
+    images: [{ url: "/images/catering-banner.png", width: 1200, height: 630 }],
+    url: "/catering/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "케이터링 서비스 | (주)씨앤씨테크",
+    description: "행사, 세미나, 기업 이벤트를 위한 커피 & 디저트 케이터링",
+    images: ["/images/catering-banner.png"],
+  },
+  alternates: { canonical: "/catering/" },
 };
 
 export default function CateringPage() {

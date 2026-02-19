@@ -2,8 +2,22 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "B2B 안내 - (주)씨앤씨테크",
-  description: "카페·기업 고객을 위한 도매 납품, 협업, 제휴 안내 - 씨앤씨테크",
+  title: "B2B 안내",
+  description:
+    "카페·기업 고객을 위한 커피 원두 도매 납품, OEM, 협업 및 제휴 안내 - 씨앤씨테크",
+  openGraph: {
+    title: "B2B 안내 | (주)씨앤씨테크",
+    description: "카페·기업 고객을 위한 커피 원두 도매 납품, OEM, 협업 안내",
+    images: [{ url: "/images/slide2.png", width: 1200, height: 630 }],
+    url: "/b2b/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "B2B 안내 | (주)씨앤씨테크",
+    description: "카페·기업 고객을 위한 커피 원두 도매 납품, OEM, 협업 안내",
+    images: ["/images/slide2.png"],
+  },
+  alternates: { canonical: "/b2b/" },
 };
 
 export default function B2BPage() {

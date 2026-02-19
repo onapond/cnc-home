@@ -11,8 +11,8 @@
     "backend": "bkend.ai BaaS"
   },
   "pdca": {
-    "currentPhase": "archived",
-    "features": []
+    "currentPhase": "plan",
+    "features": ["seo-optimization"]
   },
   "context": {
     "business": "C&C Tech - Korean specialty coffee roasting company",
