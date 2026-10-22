@@ -53,8 +53,8 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-bold text-cream mb-4">연락처</h3>
             <ul className="space-y-2 text-sm">
-              <li>경기도 남양주시 다산순환로 147</li>
-              <li>다산현대프리미어캠퍼스 A동 605호</li>
+              <li>경기도 고양시 덕양구 삼막3길 5</li>
+              <li>삼송한강듀클래스 402호</li>
               <li>Tel: 031-523-3285</li>
               <li>Email: canctech@cnctechlab.co.kr</li>
             </ul>
